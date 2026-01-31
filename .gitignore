@@ -1,0 +1,24 @@
+# --- Dependencies & Build Output ---
+node_modules/
+dist/
+build/
+bin/
+obj/
+publish/
+
+# --- IDE Files ---
+.vs/
+.vscode/
+*.suo
+*.user
+
+# --- Sensitive Configuration (NEVER UPLOAD THESE) ---
+# Blocks your API keys and DB strings
+appsettings.json
+appsettings.Development.json
+*.env
+secrets.json
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
